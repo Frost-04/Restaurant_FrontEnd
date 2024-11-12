@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant FrontEnd</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/135385055e.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#"><strong>Yummy</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Signup</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-------------------------------------------------- Hero----------------------------------------------------->
+    <div class="hero">
+        <h1>It's not just food,<br> it's an Experience!</h1>
+        <p>The best delicious food that meets your needs, order now<br><br><a href="#" class="btn btn-danger" id="mainButton">
+            Order Now <i class="fa-solid fa-mug-hot"></i> </a>
+        </p>
+        
+    </div>
+
+    <!---------------------------------------------------- Content ---------------------------------------->
+    <div class="container-fluid my-6 ">
+        <h2 class="text-center mb-4"><br>Order Fresh Food</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/dosa.png" alt="Masala Dosa" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Masala Dosa</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹60</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/manchurian.png" alt="Manchurian" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Manchurian</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹100</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/idli.png" alt="Steamed Idli" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Steamed Idli</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹60</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/bolognese.png" alt="Bolognese" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Bolognese</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹229</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 5 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/burger.png" alt="Burger Combo" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Burger Combo</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹359</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/samosa.png" alt="Veg Samosa" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Veg Samosa</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹60</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/hakkanoodles.png" alt="Pasta" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Hakka Noodles</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹120</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-lg-3 col-md-6 mb-5 d-flex align-items-stretch">
+                <div class="card food-card p-3">
+                    <img src="imgs/pizza.png" alt="Pizza" class="card-img-top mx-auto d-block">
+                    <div class="card-body text-center" id="contentFood">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text text-muted">Description of the ingredients.</p>
+                        <p><strong>₹300</strong></p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------------------------------- Footer-------------------------------------------------------------------->
+    <footer>
+        <p>Build by <strong>MT2024050</strong></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
