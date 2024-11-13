@@ -88,3 +88,8 @@ footer {
     padding: 10px;
     font-size: 0.9rem;
 }
+
+.container-fluid {
+align-items: center;
+max-width:90% !important;
+}
