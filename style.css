@@ -6,6 +6,8 @@
 }
 .navbar-nav .nav-link {
     color: white !important;
+    text-align: right;
+    text-shadow: 0px 0px 5px black,0px 0px 10px black,0px 0px 15px black,0px 0px 10px black,0px 0px 5px black,0px 0px 5px black;
 }
 
 .hero {
